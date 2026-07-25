@@ -27,3 +27,13 @@ Der Fokus des Projektes liegt auf einer sauberen Datenbankstruktur, der Trennung
 
 ## Installation 
 
+```bash
+git clone https://github.com/DEIN-USERNAME/mock-erp-system.git
+cd mock-erp-system
+pip install -r requirements.txt
+```
+
+Anwendung starten:
+```bash
+streamlit run app.py
+```
