@@ -37,14 +37,13 @@ Anwendung starten:
 ```bash
 streamlit run app.py
 ```
-
 ## Nutzung
 
 Die Anwendung wird über eine Streamlit-Oberfläche gesteuert.
 
 - Über die Sidebar können die verschiedenen Bereiche (Kunden, Artikel, Bestand und Bestellungen) ausgewählt werden.
-- Zunächst können Kunden und Artikel angelegt und verwaltet werden.
-- Anschließend können Lagerbestände für Artikel erstellt und angepasst werden.
+- Das Projekt enthält bereits eine vorbereitete `erp.db`-Datenbank mit Beispieldaten, sodass die Anwendung direkt getestet werden kann.
+- Alternativ können eigene Kunden, Artikel, Lagerbestände und Bestellungen über die Oberfläche angelegt und verwaltet werden.
 - Im Bereich Bestellungen können neue Bestellungen erstellt und mit Artikeln ergänzt werden.
 - Beim Finalisieren einer Bestellung wird automatisch geprüft, ob ausreichend Lagerbestand vorhanden ist. Bei erfolgreicher Prüfung wird der Bestand aktualisiert und die Bestellung abgeschlossen.
 
