@@ -37,3 +37,36 @@ Anwendung starten:
 ```bash
 streamlit run app.py
 ```
+
+## Nutzung
+
+Die Anwendung wird über eine Streamlit-Oberfläche gesteuert.
+
+- Über die Sidebar können die verschiedenen Bereiche (Kunden, Artikel, Bestand und Bestellungen) ausgewählt werden.
+- Zunächst können Kunden und Artikel angelegt und verwaltet werden.
+- Anschließend können Lagerbestände für Artikel erstellt und angepasst werden.
+- Im Bereich Bestellungen können neue Bestellungen erstellt und mit Artikeln ergänzt werden.
+- Beim Finalisieren einer Bestellung wird automatisch geprüft, ob ausreichend Lagerbestand vorhanden ist. Bei erfolgreicher Prüfung wird der Bestand aktualisiert und die Bestellung abgeschlossen.
+
+## Projektstruktur
+
+- app.py → Streamlit-Oberfläche
+- erp.py → Geschäftslogik und Datenbankoperationen
+- erp.db → SQLite-Datenbank
+- requirements.txt → Abhängigkeiten
+
+## Beispiel / Output
+
+Die Anwendung ermöglicht:
+- Anzeige von Kunden- und Artikellisten
+- Verwaltung von Lagerbeständen
+- Erstellung und Auswertung von Bestellungen inklusive Gesamtwert
+
+## Learnings
+
+- Umsetzung einer relationalen Datenbankstruktur mit SQLite
+- Arbeiten mit SQL (Joins, Aggregationen, Transaktionen)
+- Einsatz von Transaktionen zur Sicherstellung von Datenkonsistenz
+- Trennung von Geschäftslogik und Benutzeroberfläche
+- Umgang mit Fehlerfällen (z. B. unzureichender Lagerbestand)
+- Entwicklung einer einfachen UI mit Streamlit
