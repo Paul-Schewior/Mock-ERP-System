@@ -66,7 +66,7 @@ Die Anwendung wird über eine Streamlit-Oberfläche gesteuert.
 ![Bestand](Screenshots/Bestand.png)
 
 ### Bestellungen
-![Bestellung](Screenshots/Bestellung)
+![Bestellung](Screenshots/Bestellung.png)
 
 ### Bestellungspositionen
 ![Bestellungsposition_anzeigen](Screenshots/Bestellungsposition_anzeigen.png)
