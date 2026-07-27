@@ -54,12 +54,22 @@ Die Anwendung wird über eine Streamlit-Oberfläche gesteuert.
 - erp.db → SQLite-Datenbank
 - requirements.txt → Abhängigkeiten
 
-## Beispiel / Output
+## Output
 
-Die Anwendung ermöglicht:
-- Anzeige von Kunden- und Artikellisten
-- Verwaltung von Lagerbeständen
-- Erstellung und Auswertung von Bestellungen inklusive Gesamtwert
+### Kundenübersicht
+![Kunden](Screenshots/Kunden.png)
+
+### Artikelverwaltung
+![Artikel](Screenshots/Artikel.png))
+
+### Bestandsübersicht
+![Bestand](Screenshots/Bestand.png)
+
+### Bestellungen
+![Bestellung](Screenshots/Bestellung)
+
+### Bestellungspositionen
+![Bestellungsposition_anzeigen](Screenshots/Bestellungsposition_anzeigen.png)
 
 ## Learnings
 
